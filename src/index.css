@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+  
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05070a;
+    font-family: 'Rajdhani', sans-serif;
+  }
+}
+
+.font-teko {
+  font-family: 'Teko', sans-serif;
+}
+
+.font-chakra {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Custom scrollbars and HUD styling */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 120, 0, 0.5);
+  border-radius: 2px;
+}

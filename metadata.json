@@ -1,0 +1,6 @@
+{
+  "name": "IGNITE MAX: Battle Royale",
+  "description": "Fast-paced 3D multiplayer battle royale featuring real-time room battles, dynamic safe zone shrinking, tactical weapons, 3D hero operators, and full mobile & desktop controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
